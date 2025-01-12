@@ -1,0 +1,5 @@
+print("Ayaz ")
+print("Ayaz \"hello\"  ayaz ")
+print("Ayaz \'ayazaaa\' ayaz ")
+print("Ayaz \\ ataz")
+print("therew is a lion \r this ")
