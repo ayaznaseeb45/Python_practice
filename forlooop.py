@@ -20,3 +20,5 @@ a = "ayaznaseeb"
 
 for char in a :
     print(f"{char }\n")
+
+    
