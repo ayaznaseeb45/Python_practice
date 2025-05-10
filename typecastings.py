@@ -5,4 +5,4 @@
 a = input("enter a value:")
 b = input("enter b value:")
 
-print(float(a) + float(b))
+print(float(a) + float(b)) 
