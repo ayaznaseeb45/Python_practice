@@ -1,20 +1,35 @@
-#  Syntax reminder:
-# list_name = [expression for item in iterable if condition]
+#  Syntax reminder: list_name = [expression   for item in iterable     if condition]
+
+
+
+
 
 #  List of squares
 squares = [x**2 for x in range(1, 6)]  
 print("Squares:", squares)
 
+
+
+
 #  Even numbers from 1 to 5
 even_list = [x for x in range(1, 6) if x % 2 == 0]
 print("Even numbers:", even_list)
 
-#  Apply function to each element (uppercase fruits)
+
+
+
+
+
+#  (uppercase fruits)
 my_list = ['apple', 'mango', 'cherry']
 print("Uppercase fruits:", end=" ")
 for x in my_list:
     print(x.upper(), end=" ")
 print()  
+
+
+
+
 
 # Flatten a nested list using list comprehension
 nested_list = [[1, 2], [3, 4], [5, 6]]
