@@ -1,0 +1,2 @@
+Writing a content in file:I am adding this line using append mode:
+ I am adding this line using append mode:

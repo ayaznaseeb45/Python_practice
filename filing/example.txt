@@ -1,2 +1,1 @@
-hello ayaz
-hellohy
+Writing a content in file:
