@@ -1,0 +1,5 @@
+My name is Developer.
+I am learning Python.
+File handling is easy!
+
+This is an appended line.
