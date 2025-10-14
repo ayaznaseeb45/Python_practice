@@ -22,8 +22,9 @@ file.close()
 print(f"\nTotal lines: {line_count}")
 
 # 4. Append one more line to the file.
+from datetime import datetime
 file = open("notes.txt", "a")
-file.write("\nThis is an appended line.")
+file.write(f"\n{datetime.now}This is an appended line.")
 file.close()
 
 # 5. Count how many words are in the file.
