@@ -3,7 +3,9 @@ file = open("intro.txt", "w")
 
 # 2. Write some lines about yourself
 file.write("My name is Ayaz.\nI love coding.\nPython is my favorite language.")
-file.close()   # 3. Close the file
+
+# 3. Close the file
+file.close()  
 
 # 4. Reopen file in read mode
 file = open("intro.txt", "r")

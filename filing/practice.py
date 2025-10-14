@@ -80,7 +80,7 @@ file2 = open("backup.txt", "r")
 combined = open("combined.txt", "w")
 
 combined.write(file1.read() + "\n" + file2.read())
-
+ 
 file1.close()
 file2.close()
 combined.close()
