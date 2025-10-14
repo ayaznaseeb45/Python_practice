@@ -29,6 +29,7 @@ file.close()
 # 5. Count how many words are in the file.
 file = open("notes.txt", "r")
 words = file.read().split()
+# split krny word ko "list" meh lay ay ga
 file.close()
 print(f"Total words: {len(words)}")
 
