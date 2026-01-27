@@ -91,9 +91,67 @@
 
 
 # Write a program to calculate an electricity bill based on units consumed.
-units_Consumed = int(input("enter unit consumed: "))
-price_of_unit = 3
+# units_Consumed = int(input("enter unit consumed: "))
+# price_of_unit = 3
 
-total_bill = price_of_unit * units_Consumed
+# total_bill = price_of_unit * units_Consumed
 
-print(f"Total bill is {units_Consumed} Units is: ",total_bill)
+# print(f"Total bill is {units_Consumed} Units is: ",total_bill)
+
+
+#10 Write a program to check whether a number is a palindrome or not.
+
+# num = input("Enter a number: ")
+
+# if num == num[::-1]: 
+#     print("The number you entered is a palindrome", num)
+# else:
+#     print("The number is not a palindrome")
+
+
+
+# Triangle Validity Check
+
+# a = int(input("Enter side 1: "))
+# b = int(input("Enter side 2: "))
+# c = int(input("Enter side 3: "))
+
+
+# if a + b > c and b + c > a and c + a > b:
+#     print("its valid triangle: ")
+
+# else:
+#     print("not valid triangle: ")
+
+
+# calculator 
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# op = input("Enter operator (+, -, *, /): ")
+
+# if op == "+":
+#     print(a + b)
+# elif op == "-":
+#     print(a - b)
+# elif op == "*":
+#     print(a * b)
+# elif op == "/":
+#     print(a / b)
+# else:
+#     print("Invalid operator")
+
+
+
+# check number is prime or not 
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print("Not a Prime Number")
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            print("Not a Prime Number")
+            break
+    else:
+        print("Prime Number")
