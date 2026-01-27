@@ -69,8 +69,31 @@
 
 # Leap year calculator 
 
-year = int(input("Enter a year: "))
-if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print("Leap year")
-else:
-    print("Not a leap year")    
+# year = int(input("Enter a year: "))
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")    
+
+
+
+# 8️⃣ Simple Login System
+
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+
+# if username == "admin" and password == "1234":
+#     print("Login successful")
+# elif username == "admin":
+#     print("Wrong password")
+# else:
+#     print("User not found")
+
+
+# Write a program to calculate an electricity bill based on units consumed.
+units_Consumed = int(input("enter unit consumed: "))
+price_of_unit = 3
+
+total_bill = price_of_unit * units_Consumed
+
+print(f"Total bill is {units_Consumed} Units is: ",total_bill)
