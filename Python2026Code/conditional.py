@@ -143,15 +143,54 @@
 
 
 
-# check number is prime or not 
-num = int(input("Enter a number: "))
+# # check number is prime or not 
+# num = int(input("Enter a number: "))
 
-if num <= 1:
-    print("Not a Prime Number")
-else:
-    for i in range(2, num):
-        if num % i == 0:
-            print("Not a Prime Number")
-            break
-    else:
-        print("Prime Number")
+# if num <= 1:
+#     print("Not a Prime Number")
+# else:
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("Not a Prime Number")
+#             break
+#     else:
+#         print("Prime Number")
+
+
+# match statement in python 
+
+# num = 5
+
+# match num:
+#     case 1:
+#         print("One")
+#     case 2:
+#         print("Two")
+#     case 3:
+#         print("Three")
+#     case _:
+#         print("Other number")
+
+
+
+
+# day = int(input("Enter day number (1-7): "))  
+# match day:
+#     case 1:           
+#         print("Monday")
+#     case 2:   
+#         print("Tuesday")
+
+#     case 3:   
+#         print("Wednesday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Friday")
+
+#     case 6:
+#         print("Saturday")
+#     case 7:
+#         print("Sunday")
+#     case _:
+#         print("Invalid day number")
