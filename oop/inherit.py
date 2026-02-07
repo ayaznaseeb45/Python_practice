@@ -19,4 +19,4 @@ class bike(Car):
         
 
 bike1 = bike("xoxo", 1985, "black")
-print(bike1.all_data())
+print(bike1.all_data()) 
