@@ -23,3 +23,9 @@ bike1 = bike("xoxo", 1985, "black")
 
 # call method
 print(bike1.all_data())
+
+
+
+
+
+
