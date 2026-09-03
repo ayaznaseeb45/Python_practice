@@ -14,7 +14,6 @@
 
 
 a = "green"
-
 mid_value = len(a) // 2   
 
 print("mid value: " , mid_value)

@@ -4,7 +4,7 @@ list1 = [10, 20, 30, 40, 50]
 # list1[1] = 25
 # print("Modified List:", list1)
 
-print("\n slicing", list1[1:3])
+# print("\n slicing", list1[1:3])
 
 
 # list1 = [10, 20, 30, 40, 50]
