@@ -8,5 +8,4 @@ for num in list_value:
     if num not in unique_value:
         unique_value.append(num)
 
-
 print(f"unique value is {unique_value}")
