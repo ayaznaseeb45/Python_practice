@@ -1,4 +1,4 @@
-numbers = [2, 7, 11, 15]
+numbers = [2, 11, 7, 15]
 target = 9
 
 found = False
