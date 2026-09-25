@@ -7,9 +7,11 @@ The code reflects different stages of my learning journey. Some examples may be 
 ## What is included
 
 - Python basics and syntax practice
-- Object-oriented programming (OOP) mall projects
+- Object-oriented programming (OOP) small projects
 - Data structures and algorithms (DSA)
-- Interview practice for fresher as i did when i was haha practice for perfiction donot copypaste 
+- Interview preparation exercises I practiced as a beginner
 - Experiments with different Python concepts
 
 These files are personal learning exercises and are not intended to be production-ready code. The goal was to learn by writing code, making mistakes, and practicing.
+
+If you use these examples, try writing and understanding the code yourself instead of simply copying and pasting. Practice is how we improve.
