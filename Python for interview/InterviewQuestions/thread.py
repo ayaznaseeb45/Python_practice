@@ -1,3 +1,4 @@
+# thread in python without using thread module
 import time 
 
 def task(name):
